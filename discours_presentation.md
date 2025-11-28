@@ -4,165 +4,178 @@ Ce document contient le discours suggéré pour la présentation orale. Il est d
 
 **👥 Répartition suggérée :**
 
-- **Intervenant 1 (Intro & Cadrage)** : Slides 1, 2, 3 (~6 min)
-- **Intervenant 2 (Solution & Réalisation)** : Slides 4, 5, 6 (~8 min)
-- **Intervenant 3 (Pilotage & Conclusion)** : Slides 7, 8, 9, 10 (~6 min)
+- **Intervenant 1 (Cadrage & Enjeux)** : Slides 1 à 6 (~7 min)
+- **Intervenant 2 (Réalisation & Déploiement)** : Slides 7 à 12 (~7 min)
+- **Intervenant 3 (Pilotage & Conclusion)** : Slides 13 à 17 (~6 min)
 
 ---
 
-## 🟢 PARTIE 1 : CONTEXTE & OBJECTIFS (Intervenant 1)
+## 🟢 PARTIE 1 : CADRAGE & ENJEUX (Intervenant 1)
 
 ### Slide 1 : Titre / Intro (30 sec)
 
 **Intervenant 1 :**
 "Bonjour à tous. Nous sommes ravis de vous présenter aujourd'hui le projet de transformation digitale de **FormaPro**.
-Comme vous le savez, le secteur de la formation professionnelle est en pleine mutation, et notre projet vise à moderniser radicalement nos outils pour rester compétitifs.
-Nous allons vous détailler notre démarche pour déployer notre nouveau LMS et optimiser l'ensemble de notre gestion de formation."
+Face aux mutations du secteur de la formation, nous lançons un projet ambitieux de modernisation de nos outils.
+Nous allons vous détailler notre démarche complète, du cadrage stratégique jusqu'au déploiement de notre nouveau LMS."
 _(Passer à la slide suivante)_
 
-### Slide 2 : Contexte & Enjeux (3 min)
+### Slide 2 : Contexte & Enjeux (1 min 30)
 
 **Intervenant 1 :**
-"Commençons par le contexte. **FormaPro** est un organisme solide : nous formons 3 500 stagiaires par an pour le compte de 120 entreprises clientes. Nous gérons une équipe de plus de 100 formateurs (permanents et vacataires) sur 150 formations différentes.
+"FormaPro, c'est aujourd'hui 3 500 stagiaires par an et 120 entreprises clientes. Mais notre gestion actuelle sur Excel et papier freine notre croissance.
+Nous faisons face à trois défis majeurs :
 
-Cependant, notre fonctionnement actuel a atteint ses limites.
-Aujourd'hui, nous sommes confrontés à trois problèmes majeurs :
+1.  **L'inefficacité administrative** et les risques d'erreurs.
+2.  **Une offre e-learning vieillissante** (45% de complétion seulement).
+3.  **L'urgence Qualiopi** : notre audit de renouvellement est dans 18 mois, et la traçabilité manuelle ne suffira plus."
 
-1.  **L'inefficacité administrative** : Nous gérons tout sur Excel, papier et via des outils non connectés comme Zoom. Cela génère des erreurs et une perte de temps considérable.
-2.  **Une offre pédagogique vieillissante** : Notre taux de complétion en e-learning plafonne à 45%, ce qui est très faible. Nos contenus ne sont pas assez engageants.
-3.  **L'absence de visibilité** : Nos clients entreprises nous réclament des tableaux de bord de suivi que nous sommes incapables de fournir automatiquement.
-
-À cela s'ajoute une urgence absolue : **l'audit Qualiopi** dans 18 mois. Si nous ne sommes pas capables de garantir une traçabilité numérique parfaite, nous risquons de perdre notre certification. C'est donc une question de survie et de compétitivité."
-
-### Slide 3 : Objectifs SMART (2 min 30)
+### Slide 3 : Objectifs SMART (1 min)
 
 **Intervenant 1 :**
-"Face à ce constat, nous avons fixé des objectifs clairs et mesurables pour ce projet, à horizon juin 2026.
-Notre ambition est de déployer une plateforme unique qui centralise tout.
+"Notre objectif est clair : déployer une plateforme LMS intégrée d'ici juin 2026.
+Nous visons :
 
-Concrètement, nous visons :
+- **-50%** de temps administratif.
+- **70%** de complétion e-learning.
+- **100%** de conformité Qualiopi.
+  C'est un projet vital pour notre compétitivité."
 
-- **Sur la performance** : Réduire de **50%** le temps passé sur les tâches administratives grâce à l'automatisation.
-- **Sur la pédagogie** : Faire passer le taux de complétion e-learning de 45% à **70%** en proposant une expérience moderne.
-- **Sur la qualité** : Garantir **100% de conformité Qualiopi** grâce à la traçabilité native des données.
+### Slide 4 : Périmètre (IN / OUT) (1 min)
 
-Nous voulons également offrir une véritable valeur ajoutée à nos utilisateurs :
+**Intervenant 1 :**
+"Pour réussir, nous avons strictement délimité le périmètre.
+**INCLUS (IN)** :
 
-- Un **portail client** pour nos 120 entreprises partenaires.
-- Un accès **mobile** pour que nos apprenants puissent se former partout.
-- Et la digitalisation totale des processus, de l'inscription jusqu'à la délivrance du certificat.
+- Le LMS SaaS (Web & Mobile).
+- L'automatisation administrative (Sage, Yousign).
+- La migration des contenus existants.
+- Le portail client.
 
-Je laisse maintenant la parole à [Nom Intervenant 2] pour vous présenter la solution retenue."
+**EXCLU (OUT)** :
+
+- Pas de développement sur-mesure.
+- Pas de création de contenus from scratch (rôle des formateurs).
+- Pas de refonte du CRM Salesforce."
+
+### Slide 5 : Parties Prenantes (1 min)
+
+**Intervenant 1 :**
+"Ce projet implique de nombreux acteurs.
+En interne :
+
+- La **Direction** et le **Responsable Pédagogique** (Sponsors).
+- Nos **100 formateurs** (Utilisateurs clés à accompagner).
+  En externe :
+- Nos **Clients Entreprises** (Demandeurs de suivi).
+- L'**Auditeur Qualiopi** (Garant de la conformité)."
+
+### Slide 6 : Solution & Méthodologie (1 min 30)
+
+**Intervenant 1 :**
+"Nous avons choisi un **LMS en mode SaaS**.
+C'est le choix de la raison : déploiement rapide (6 mois), coûts maîtrisés et conformité native.
+Nous pilotons ce projet en **Agile Scrum** avec des sprints de 2 semaines pour rester flexibles et livrer de la valeur régulièrement.
+Je laisse la parole à [Nom Intervenant 2]."
 
 ---
 
-## 🔵 PARTIE 2 : SOLUTION & DÉPLOIEMENT (Intervenant 2)
+## 🔵 PARTIE 2 : RÉALISATION & DÉPLOIEMENT (Intervenant 2)
 
-### Slide 4 : Solution & Méthodologie (2 min 30)
-
-**Intervenant 2 :**
-"Merci. Pour répondre à ces objectifs ambitieux, nous avons étudié plusieurs scénarios.
-Nous avons écarté le développement sur-mesure, trop long et coûteux à maintenir, ainsi que les solutions Open Source comme Moodle, qui demandaient trop d'expertise technique interne pour l'UX.
-
-Nous avons donc fait le choix d'un **LMS en mode SaaS (Software as a Service)**.
-Pourquoi ce choix ?
-
-- Pour la **rapidité de déploiement** : le 'Time-to-market' est critique avec l'échéance Qualiopi.
-- Pour la **conformité native** : les éditeurs SaaS mettent à jour leur outil selon les réglementations.
-- Et pour maîtriser nos **coûts** via un abonnement mensuel plutôt qu'un lourd investissement initial.
-
-Côté méthodologie, nous partons sur de l'**Agile Scrum**. Avec des sprints de 2 semaines, nous pourrons livrer des fonctionnalités régulièrement et ajuster le tir selon les retours de nos formateurs et stagiaires, ce qui est essentiel pour l'adoption."
-
-### Slide 5 : Fonctionnalités Clés / Backlog (3 min)
+### Slide 7 : Fonctionnalités Clés (1 min)
 
 **Intervenant 2 :**
-"Concrètement, que va faire cette plateforme ? Nous avons structuré notre backlog autour de nos différents utilisateurs.
+"Merci. Notre backlog est priorisé par valeur utilisateur :
 
-- **Pour les Stagiaires** : Ils auront enfin un espace unique pour suivre leurs parcours e-learning et blended, voir leur progression en temps réel et télécharger leurs certificats automatiquement. L'accès mobile est une priorité.
-- **Pour les Formateurs** : Ils pourront déposer leurs contenus (PDF, vidéos), gérer leurs sessions et faire l'émargement numérique directement sur la plateforme.
-- **Pour les Entreprises** : Elles disposeront d'un dashboard pour inscrire leurs collaborateurs et suivre leur montée en compétences.
+- **Stagiaires** : Accès mobile, parcours blended, certificats auto.
+- **Formateurs** : Gestion sessions, émargement numérique.
+- **Entreprises** : Dashboard de pilotage.
+- **Admin** : Intégration SI (Salesforce, Sage)."
 
-Enfin, le cœur du réacteur, c'est l'intégration avec notre Système d'Information existant :
-
-- Synchronisation avec **Salesforce** pour les données clients.
-- Lien avec **Sage** pour automatiser la facturation.
-- Et intégration de **Yousign** pour la signature électronique des documents légaux."
-
-### Slide 6 : Planning & Déploiement (2 min 30)
+### Slide 8 : Planning & Estimation (1 min 30)
 
 **Intervenant 2 :**
-"Comment allons-nous déployer tout cela ?
-Nous avons une roadmap claire jusqu'en septembre 2026.
+"Nous avons estimé la charge totale à **185 jours/homme** (PERT) sur 12 mois.
+Le planning se découpe en 3 phases :
 
-Actuellement, nous avons validé la phase de **Conception et Choix**.
-Nous entrons dans la phase d'**Intégration et Tests** (Phases 6 à 9), où nous allons configurer le LMS et développer les connecteurs API.
+1.  **Cadrage** (Mois 1-2).
+2.  **Réalisation** (Mois 3-8) : Paramétrage et API.
+3.  **Déploiement** (Mois 9-12) : Lancement progressif."
 
-Pour le déploiement final, nous avons opté pour une stratégie de **Canary Release**. C'est crucial pour sécuriser le lancement.
-Nous n'allons pas ouvrir la plateforme à tout le monde d'un coup.
+### Slide 9 : WBS (Structure de Découpage) (1 min)
 
-- Nous commencerons par un pilote avec **5%** des utilisateurs (quelques formateurs et 2 entreprises test).
-- Puis nous monterons progressivement à 20%, 50%, pour atteindre **100% en septembre 2026**.
+**Intervenant 2 :**
+"Pour sécuriser cette charge, nous avons découpé le projet en tâches fines (WBS).
+Des phases amont (Choix LMS, Audit SI) jusqu'aux phases de réalisation (Migration contenus, Paramétrage) et de déploiement.
+Rien n'est laissé au hasard, chaque tâche a un responsable."
 
-Cela nous permet de vérifier la charge, de corriger les bugs sans impacter tout le monde, et d'assurer un support de qualité.
-Je passe la main à [Nom Intervenant 3] pour les aspects pilotage et budget."
+### Slide 10 : Matrice RACI (1 min)
+
+**Intervenant 2 :**
+"Justement, qui fait quoi ? Notre matrice RACI est claire :
+
+- Le **Chef de Projet** est Responsable (R) du pilotage global.
+- L'**Équipe IT** est Responsable de l'intégration technique.
+- La **Direction** Valide (A) les choix stratégiques (Budget, LMS).
+- Le **Resp. Pédagogique** est Responsable de la qualité des contenus."
+
+### Slide 11 : Stratégie de Tests (1 min)
+
+**Intervenant 2 :**
+"La qualité est non négociable. Nous appliquons une pyramide de tests :
+
+- 70% de tests unitaires automatisés.
+- Mais surtout des **Tests d'Acceptation (UAT)** avec des formateurs et stagiaires réels pour valider les parcours critiques (Inscription, Certificat)."
+
+### Slide 12 : Plan de Déploiement (1 min 30)
+
+**Intervenant 2 :**
+"Enfin, pour le déploiement, nous jouons la sécurité avec une **Canary Release**.
+
+- **Étape 1** : Pilote sur 5% (2 entreprises amies).
+- **Étape 2** : Montée à 20% pour vérifier la charge.
+- **Étape 3** : Généralisation à 100%.
+  Cela nous permet de corriger les bugs sans impacter tout le monde.
+  [Nom Intervenant 3] va conclure sur le pilotage."
 
 ---
 
 ## 🟠 PARTIE 3 : PILOTAGE & CONCLUSION (Intervenant 3)
 
-### Slide 7 : Budget Détaillé (2 min)
+### Slide 13 : KPI & Suivi (1 min 30)
 
 **Intervenant 3 :**
-"Merci. Parlons maintenant des moyens.
-Nous avons estimé le coût du projet interne à environ **90 610 €**, ce qui correspond à **185 jours/homme** de travail sur l'année.
+"Merci. Pour piloter ce projet, nous suivons 4 KPI majeurs :
 
-Ce budget interne couvre principalement :
+1.  **Avancement** : J/H consommés vs prévus.
+2.  **Budget** : Écart Coût Réel vs Prévu.
+3.  **Adoption** : Le taux d'utilisateurs actifs (c'est le juge de paix).
+4.  **Qualité** : La satisfaction stagiaire (> 4/5)."
 
-- L'équipe IT pour l'intégration technique (27k€).
-- Le pilotage par le Chef de Projet (26k€).
-- Et le temps passé par la pédagogie et l'administration pour la migration des contenus et les recettes.
-
-À cela s'ajoutent les coûts externes liés au SaaS :
-
-- La licence du LMS (entre 800 et 2000€/mois selon le volume).
-- Les outils tiers comme Yousign.
-- Et une enveloppe pour l'audit Qualiopi et la communication de lancement.
-
-Nous avons aussi prévu un budget de **MCO (Maintenance en Condition Opérationnelle)** de 10 à 20% par an pour assurer la pérennité de la solution."
-
-### Slide 8 : Analyse des Risques (2 min)
+### Slide 14 : Budget Détaillé (1 min 30)
 
 **Intervenant 3 :**
-"Un projet de cette ampleur comporte des risques que nous avons identifiés et anticipés.
+"Le budget est de **90 610 €** en interne (185 J/H), couvrant l'IT et le pilotage.
+Les coûts externes (Licence SaaS) sont des charges de fonctionnement (OPEX).
+Nous avons prévu une enveloppe de maintenance (MCO) de 10-20% par an pour assurer la pérennité."
 
-Le risque le plus critique (Coté 9) concerne l'**Intégration SI**. Si les connecteurs avec Salesforce ou Sage ne fonctionnent pas, on bloque l'administratif.
-
-- _Notre réponse_ : Nous mettons en place une 'Sandbox' technique pour tester ces flux bien avant la mise en prod.
-
-Nous avons aussi deux risques majeurs (Cotés 6) :
-
-1.  **La Migration des données** : Peur de perdre l'historique.
-    - _Réponse_ : Back-ups complets et tests de migration sur des échantillons.
-2.  **L'Adoption utilisateurs** : Le risque que les formateurs refusent de changer leurs habitudes.
-    - _Réponse_ : C'est tout l'enjeu de notre conduite du changement. Nous allons nommer des ambassadeurs et former massivement les équipes.
-
-Enfin, le risque de **Conformité Qualiopi** est géré par des audits blancs réguliers."
-
-### Slide 9 : Conclusion (1 min)
+### Slide 15 : Analyse des Risques (1 min 30)
 
 **Intervenant 3 :**
-"Pour conclure, ce projet 'FormaPro' n'est pas juste un projet informatique, c'est la clé de voûte de notre stratégie future.
+"Nous restons vigilants sur les risques.
 
-En déployant cette plateforme, nous allons :
+- **Intégration SI** (Critique) : Nous testons les API en Sandbox.
+- **Migration Données** (Élevé) : Nous faisons des backups complets.
+- **Adoption** (Élevé) : Nous misons tout sur la formation et l'accompagnement des formateurs."
 
-1.  Gagner un temps précieux sur l'administratif (-50%).
-2.  Sécuriser notre certification Qualiopi.
-3.  Et surtout, offrir une expérience d'apprentissage moderne qui fidélisera nos clients et nos stagiaires.
-
-Nous sommes prêts à lancer la prochaine phase et nous sommes confiants dans notre capacité à tenir les délais pour 2026.
-Merci de votre attention."
-
-### Slide 10 : Questions / Réponses (1 min)
+### Slide 16 : Conclusion (1 min)
 
 **Intervenant 3 :**
-"Nous sommes maintenant disponibles pour répondre à toutes vos questions."
+"En conclusion, le projet FormaPro est structuré pour réussir.
+Il répond à nos enjeux de productivité (-50% admin), de qualité (Qualiopi) et de business (Offre moderne).
+Nous sommes prêts à lancer la réalisation."
+
+### Slide 17 : Questions / Réponses (30 sec)
+
+**Intervenant 3 :**
+"Merci de votre attention. Nous sommes prêts à répondre à vos questions."
