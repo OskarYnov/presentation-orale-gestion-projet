@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-11-01" view-index="0" gantt-divider-location="589" resource-divider-location="300" version="3.3.3316" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd15" name="Notes" width="20" order="-1"/>
+        <field id="tpd3" name="Nom" width="294" order="0"/>
+        <field id="tpd4" name="Date de début" width="133" order="1"/>
+        <field id="tpd5" name="Date de fin" width="161" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <timeline><![CDATA[0]]></timeline>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="209" order="0"/>
+        <field id="1" name="Rôle par défaut" width="85" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="57b648885a8e4e83a2a372caf91bbd0e" name="Cadrage du projet et validation du périmètre" meeting="false" start="2026-01-05" duration="13" complete="0" expand="true">
+            <task id="91" uid="884006c160ed49ea8d3ea7e0fe04de6a" name="Démarrage du projet" meeting="true" start="2026-01-05" duration="0" complete="0" expand="true">
+                <depend id="5" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="5" uid="c8509da85d434c06953933e2f6f81d18" name="Recueil besoins internes" meeting="false" start="2026-01-05" duration="2" complete="0" expand="true">
+                <depend id="7" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="7" uid="e025b8cfb76348b8bed20e83b7a8201c" name="Recueil besoins clients" meeting="false" start="2026-01-07" duration="2" complete="0" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="8" uid="af79b63f2b8e4208a68bfe3d56747125" name="Analyse systèmes existants" meeting="false" start="2026-01-09" duration="2" complete="0" expand="true">
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="9" uid="7b6e9daafdbc465a8a73544ed9ccbb02" name="Définition périmètre fonctionnel" meeting="false" start="2026-01-13" duration="2" complete="0" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" uid="556c22eadb804242aaa62d123423455d" name="Validation cahier des charges / budget" meeting="false" start="2026-01-15" duration="3" complete="0" expand="true">
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" uid="776e50b746f9499fb90baba3882282c3" name="Planification prévisionnelle &amp; gouvernance" meeting="false" start="2026-01-20" duration="2" complete="0" expand="true">
+                <depend id="77" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="77" uid="467bdf4529294aadac3db720d3c24d9b" name="Cahier des charges validé" meeting="true" start="2026-01-22" duration="0" complete="0" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="12" uid="3cfbd0b36211476bba67da698b52831b" name="Choix de la solution LMS" meeting="false" start="2026-01-22" duration="12" complete="0" expand="true">
+            <task id="13" uid="5c93891961f14ca29b04da21f1f344ab" name="Étude de marché des LMS" meeting="false" start="2026-01-22" duration="3" complete="0" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" uid="1b040c2ab6df4b27b5f98faf46194e5c" name="Définition critères de sélection" meeting="false" start="2026-01-27" duration="2" complete="0" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="15" uid="c8940493c39642568f45933a12ecbd32" name="POC (Proof of Concept)" meeting="false" start="2026-01-29" duration="4" complete="0" expand="true">
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" uid="44b4f431a4b7420a8393f8335b387043" name="Analyse comparative &amp; recommandation" meeting="false" start="2026-02-04" duration="2" complete="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="17" uid="f23a7e313d254eb1a2d07a35ee966745" name="Validation direction" meeting="false" start="2026-02-06" duration="1" complete="0" expand="true">
+                <depend id="78" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="78" uid="3ed66985fe08409ba5bb1cfc62252ac1" name="Solution LMS validée" meeting="true" start="2026-02-09" duration="0" complete="0" expand="true">
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="18" uid="37c02e7174ff4ed590babbebad4916f7" name="Intégration avec Salesforce, Sage et Yousign" meeting="false" start="2026-02-09" duration="23" complete="0" expand="true">
+            <task id="19" uid="ba4d2f197c054c3e94e4c711b28c163c" name="Audit des flux existants" meeting="false" start="2026-02-09" duration="3" complete="0" expand="true">
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="20" uid="3806e72bb482406987ec92209cfc715a" name="Conception interfaces API" meeting="false" start="2026-02-12" duration="5" complete="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="21" uid="ea75bc12b1c748eaa9fd14be1de5e2f2" name="Dév &amp; tests techniques" meeting="false" start="2026-02-19" duration="10" complete="0" expand="true">
+                <depend id="22" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="22" uid="7eae445ee0014cfc886c96db2bc69938" name="Validation transfert données" meeting="false" start="2026-03-05" duration="3" complete="0" expand="true">
+                <depend id="76" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="76" uid="2c06d9262bc646e1b49a2fadcfb646b7" name="Documentation technique" meeting="false" start="2026-03-10" duration="2" complete="0" expand="true">
+                <depend id="79" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="79" uid="d261d9b9fc4a41f5b0bb96e47e4ed1c7" name="Intégration SI validée" meeting="true" start="2026-03-12" duration="0" complete="0" expand="true">
+                <depend id="24" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="23" uid="8d94ffa146c6433097548087cc9c2dc9" name="Migration et structuration des contenus existants" meeting="false" start="2026-03-12" duration="18" complete="0" expand="true">
+            <task id="24" uid="e7e98b016eff42db82884f0fb1e800e2" name="Inventaire contenus" meeting="false" start="2026-03-12" duration="2" complete="0" expand="true">
+                <depend id="25" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="25" uid="468daa2499834973925bf43c459ec023" name="Nettoyage formats" meeting="false" start="2026-03-16" duration="4" complete="0" expand="true">
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="26" uid="2ce1d2529381480a8121dac5c8dce75f" name="Structuration thématique" meeting="false" start="2026-03-20" duration="4" complete="0" expand="true">
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="27" uid="7ab959cbbdba4095996a3f92d325bed8" name="Conversion &amp; import LMS" meeting="false" start="2026-03-26" duration="6" complete="0" expand="true">
+                <depend id="28" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="28" uid="db41fd5881cb42b4a79f59646d231546" name="Tests contenus" meeting="false" start="2026-04-03" duration="2" complete="0" expand="true">
+                <depend id="80" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="80" uid="5a9cd0fa1cf143fba05453c07de1c89d" name="Contenus migrés et validés" meeting="true" start="2026-04-07" duration="0" complete="0" expand="true">
+                <depend id="30" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="29" uid="b5f11793a7c94ba3b90c2cf53a2d725b" name="Conception des parcours blended et e-learning" meeting="false" start="2026-04-07" duration="14" complete="0" expand="true">
+            <task id="30" uid="a928878126074337ab9cd0b2c501204d" name="Définition parcours types" meeting="false" start="2026-04-07" duration="2" complete="0" expand="true">
+                <depend id="31" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="31" uid="7c2318b4efc749c59dd22852a02451c0" name="Objectifs pédagogiques" meeting="false" start="2026-04-09" duration="2" complete="0" expand="true">
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="32" uid="c5d3f6d96eaf4dbe917f1d0d97b159ab" name="Création templates parcours" meeting="false" start="2026-04-13" duration="4" complete="0" expand="true">
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="33" uid="7fdeb6e3d21c46c49040997337c6a0ec" name="Construction pilotes" meeting="false" start="2026-04-17" duration="4" complete="0" expand="true">
+                <depend id="34" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="34" uid="688c652bd82249049e0399f206b7d4ed" name="Tests &amp; validation" meeting="false" start="2026-04-23" duration="2" complete="0" expand="true">
+                <depend id="81" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="81" uid="67d7540b69984a4491c7b54c9c33a9b5" name="Parcours pilotes validés" meeting="true" start="2026-04-27" duration="0" complete="0" expand="true">
+                <depend id="36" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="35" uid="92a26e86f745495c910d6a33fa591d68" name="Mise en place outils d’évaluation &amp; reporting Qualiopi" meeting="false" start="2026-04-27" duration="12" complete="0" expand="true">
+            <task id="36" uid="7932f139ce0349f9a562370dfea653ab" name="Grilles d’évaluation" meeting="false" start="2026-04-27" duration="2" complete="0" expand="true">
+                <depend id="37" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="37" uid="3cc6efca13344557965fde22f6dc52ab" name="Questionnaires en ligne" meeting="false" start="2026-04-29" duration="3" complete="0" expand="true">
+                <depend id="38" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="38" uid="78f82c69729847be8c30faf01752ef3f" name="Indicateurs performance" meeting="false" start="2026-05-04" duration="2" complete="0" expand="true">
+                <depend id="39" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="39" uid="56ef51e8e0744ed49821cac6f0d04e80" name="Reporting Qualiopi" meeting="false" start="2026-05-06" duration="3" complete="0" expand="true">
+                <depend id="40" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="40" uid="dfa711daa7f742c7936f8e7024540932" name="Certificats auto" meeting="false" start="2026-05-11" duration="2" complete="0" expand="true">
+                <depend id="82" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="82" uid="0d9128d0b6714d7fba7db75b322f2e1f" name="Reporting Qualiopi opérationnel" meeting="true" start="2026-05-13" duration="0" complete="0" expand="true">
+                <depend id="42" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="41" uid="25d935eb19a240409c35d8404fe34326" name="Développement / Paramétrage de la plateforme" meeting="false" start="2026-05-13" duration="20" complete="0" expand="true">
+            <task id="42" uid="87683a26086d4e5e8210a37751814922" name="Installation &amp; config LMS" meeting="false" start="2026-05-13" duration="4" complete="0" expand="true">
+                <depend id="43" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="43" uid="d5f8b3169c11491dbb60464186fabfee" name="Rôles &amp; profils" meeting="false" start="2026-05-19" duration="2" complete="0" expand="true">
+                <depend id="44" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="44" uid="a23b482e94434a8e9d47d0ecb7486a3a" name="Branding &amp; UI" meeting="false" start="2026-05-21" duration="3" complete="0" expand="true">
+                <depend id="45" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="45" uid="428b65295ce54aa2a9d43105712b0569" name="Catalogue formations (150)" meeting="false" start="2026-05-26" duration="8" complete="0" expand="true">
+                <depend id="46" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="46" uid="da2fa2a1d547499892c00465270e9506" name="Tests techniques" meeting="false" start="2026-06-05" duration="3" complete="0" expand="true">
+                <depend id="83" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="83" uid="20958400758c422b91db1b01636ccd22" name="Plateforme stable et configurée" meeting="true" start="2026-06-10" duration="0" complete="0" expand="true">
+                <depend id="48" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="47" uid="3d5f6d7e0d28482289d41831f36f2e63" name="Tests et recettes fonctionnelles (itérations Agile)" meeting="false" start="2026-06-10" duration="14" complete="0" expand="true">
+            <task id="48" uid="79967001d95b4979b2347cf71b6cfad3" name="Plan de tests" meeting="false" start="2026-06-10" duration="2" complete="0" expand="true">
+                <depend id="49" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="49" uid="c8707886aa5743a1b0fbe79fcbcc1e96" name="Sprints validation" meeting="false" start="2026-06-12" duration="6" complete="0" expand="true">
+                <depend id="50" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="50" uid="be3be368262841de8e1278201bc6238d" name="Corrections anomalies" meeting="false" start="2026-06-22" duration="4" complete="0" expand="true">
+                <depend id="51" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="51" uid="d0a594c1d4a744b98cbea141e4b2abaf" name="Recette finale" meeting="false" start="2026-06-26" duration="2" complete="0" expand="true">
+                <depend id="84" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="84" uid="0c42824e0328475eafd2eebed11a2df3" name="Recette fonctionnelle validée" meeting="true" start="2026-06-30" duration="0" complete="0" expand="true">
+                <depend id="53" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="52" uid="b4e79f09566f427e8ae86f6abbdb7ad3" name="Formation des formateurs et administrateurs" meeting="false" start="2026-06-30" duration="13" complete="0" expand="true">
+            <task id="53" uid="e296e7612d654d29aa707358df1ff473" name="Supports formation" meeting="false" start="2026-06-30" duration="4" complete="0" expand="true">
+                <depend id="54" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="54" uid="2418842c4a314a998db55f09c7ec8bc6" name="Formateurs permanents" meeting="false" start="2026-07-06" duration="3" complete="0" expand="true">
+                <depend id="55" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="55" uid="91876028b6d64a8a8699b95432365b2a" name="Vacataires" meeting="false" start="2026-07-09" duration="2" complete="0" expand="true">
+                <depend id="56" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="56" uid="d80c9b8f291a4254b744c6d67f61edfa" name="Formation admins" meeting="false" start="2026-07-13" duration="2" complete="0" expand="true">
+                <depend id="63" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="63" uid="97081ae08ddb4ca88aff7918c56dced8" name="Feedback &amp; évaluation" meeting="false" start="2026-07-15" duration="2" complete="0" expand="true">
+                <depend id="85" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="85" uid="6e6cdaba87b94183a34af4b407ce8011" name="Formateurs formés et autonomes" meeting="true" start="2026-07-17" duration="0" complete="0" expand="true">
+                <depend id="58" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="57" uid="0255babdaaf74ccdb90f4a323d491220" name="Communication et accompagnement du changement" meeting="false" start="2026-07-17" duration="11" complete="0" expand="true">
+            <task id="58" uid="e1fed7dc1fa54008b9e0ded512c862cd" name="Communication interne" meeting="false" start="2026-07-17" duration="2" complete="0" expand="true">
+                <depend id="59" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="59" uid="d964e7e190984366bc4c167cb0bffd39" name="Communication externe" meeting="false" start="2026-07-21" duration="2" complete="0" expand="true">
+                <depend id="60" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="60" uid="d8bb698060c34964b408bfdbe16e9f92" name="Info stagiaires" meeting="false" start="2026-07-23" duration="2" complete="0" expand="true">
+                <depend id="61" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="61" uid="bf07ea20ce3848099c2fb24a6480fadf" name="Support &amp; FAQ" meeting="false" start="2026-07-27" duration="4" complete="0" expand="true">
+                <depend id="62" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="62" uid="988eeeb214694ef3b9ee6e36caca4ca4" name="Suivi adoption" meeting="false" start="2026-07-31" duration="1" complete="0" expand="true">
+                <depend id="87" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="87" uid="6f96084a51b24f93bb82ff1d237299e2" name="Communication déployée" meeting="true" start="2026-08-03" duration="0" complete="0" expand="true">
+                <depend id="65" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="64" uid="3e393ab8eccd4ecfbc632cb06ac6c059" name="Déploiement progressif de la plateforme" meeting="false" start="2026-08-03" duration="16" complete="0" expand="true">
+            <task id="65" uid="f69049438fdc4a389ba823c5f925e37a" name="Pilote formations tests" meeting="false" start="2026-08-03" duration="3" complete="0" expand="true">
+                <depend id="66" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="66" uid="9f947c48515b40aabce772de4b18eb72" name="Ajustements retours" meeting="false" start="2026-08-06" duration="2" complete="0" expand="true">
+                <depend id="67" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="67" uid="1ae2fdb1a3e74c83b483ae154217311c" name="Déploiement par vagues" meeting="false" start="2026-08-10" duration="6" complete="0" expand="true">
+                <depend id="68" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="68" uid="936c96e773ef45a5b00927a7c7bae054" name="Monitoring &amp; support" meeting="false" start="2026-08-18" duration="3" complete="0" expand="true">
+                <depend id="69" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="69" uid="3e06e79bc572498f96c8ffb95acfd752" name="Validation généralisation" meeting="false" start="2026-08-21" duration="2" complete="0" expand="true">
+                <depend id="88" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="88" uid="d045d2ae96d748b6a72cef25fe1d46de" name="Déploiement généralisé" meeting="true" start="2026-08-25" duration="0" complete="0" expand="true">
+                <depend id="71" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="70" uid="ae56c06544244e5b9192ab070f737404" name="Suivi des indicateurs SMART et conformité finale" meeting="false" start="2026-08-25" duration="14" complete="0" expand="true">
+            <task id="71" uid="af4fdbb5242b4dfbaebded3b4071bc9c" name="Suivi KPI" meeting="false" start="2026-08-25" duration="3" complete="0" expand="true">
+                <depend id="72" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="72" uid="9e50a70d19ef43618a6a9cae3adc0b20" name="Reporting mensuel" meeting="false" start="2026-08-28" duration="2" complete="0" expand="true">
+                <depend id="73" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="73" uid="9b15462733e347bb85c72a073753cc9b" name="Correctifs fonctionnels" meeting="false" start="2026-09-01" duration="4" complete="0" expand="true">
+                <depend id="74" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="74" uid="2213fc8683024fb881956c745cf8cd8b" name="Préparation audit Qualiopi" meeting="false" start="2026-09-07" duration="3" complete="0" expand="true">
+                <depend id="75" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="75" uid="1019177ed52549259fbc2944763ce4bf" name="Clôture projet" meeting="false" start="2026-09-10" duration="2" complete="0" expand="true">
+                <depend id="89" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="89" uid="45115bbd48f842eba131f4d01c39309d" name="Audit Qualiopi prêt / Clôture projet" meeting="true" start="2026-09-14" duration="0" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>

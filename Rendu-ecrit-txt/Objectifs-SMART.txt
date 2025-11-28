@@ -1,0 +1,59 @@
+# Objectif SMART
+
+Oskar Morel
+
+Raphaël Queron
+
+Maxime Fallek
+
+## **Objectif SMART global du projet de transformation digitale de FormaPro**
+
+> D'ici juin 2026, concevoir, déployer et mettre en production une application de formation digitale intégrée (LMS), accessible via web et mobile, permettant de gérer l’ensemble du cycle de formation (administratif, pédagogique, e-learning, suivi, évaluation, certification), afin de :
+> 
+> 
+> ✅ Réduire de **50% le temps consacré aux tâches administratives** internes
+> 
+> ✅ Faire passer le **taux de complétion e-learning de 45% à 70%**
+> 
+> ✅ Permettre aux **120 entreprises clientes d’accéder à un portail de suivi personnalisé**
+> 
+> ✅ Assurer la **traçabilité 100% conforme aux exigences Qualiopi** pour les 600 sessions annuelles
+> 
+> ✅ Digitaliser **100% des évaluations et certificats**
+> 
+> ✅ Intégrer le système avec les outils existants : **Salesforce, Sage, Yousign**
+> 
+> ✅ Permettre l’**accès mobile (via application native ou responsive)** pour les apprenants
+> 
+> ✅ Proposer des **parcours blended learning modulables**, accessibles et suivis en temps réel
+> 
+> ✅ Former 100% des 25 formateurs permanents et 80 vacataires à l'utilisation du nouvel outil
+> 
+
+---
+
+### 🔍 Décomposition SMART :
+
+| **Critère** | **Application à FormaPro** |
+| --- | --- |
+| **Spécifique** | Mise en place d’un LMS tout-en-un couvrant l’admin, le pédagogique, le suivi et le mobile |
+| **Mesurable** | Réduction du temps admin (50%), amélioration taux complétion (70%), 100% traçabilité |
+| **Atteignable** | Le marché propose des solutions prêtes ou adaptables (SaaS LMS) + budget + besoins clairs |
+| **Réaliste** | Aligné avec Qualiopi, les attentes clients (65% demandent du blended), et la compétitivité |
+| **Temporel** | **Avant juin 2026** (12 mois avant l’audit Qualiopi prévu fin 2026) |
+
+---
+
+### Ce que cela inclut concrètement :
+
+| **Domaine** | **Livrables / Exigences** |
+| --- | --- |
+| **Infrastructure** | Choix et déploiement d’un LMS + intégration avec Salesforce, Sage, Yousign |
+| **Contenus pédagogiques** | Migration des anciens modules (SCORM, PDF, vidéos), création de parcours blended |
+| **E-learning** | Modules SCORM, microlearning, responsive mobile, amélioration UX |
+| **Présentiel / visio** | Gestion des sessions, convocations, feuilles d’émargement numériques, Zoom ou autre intégré |
+| **Évaluations & suivis** | Digitalisation totale, analytics, tableau de bord par entreprise, remontée Qualiopi |
+| **Certificats** | Automatisation, génération dynamique, envoi, archivage |
+| **Portail client** | Accès sécurisé pour les 120 entreprises clientes : progression, statistiques, convocations, documents |
+| **Mobile** | Application mobile native ou interface web responsive (selon le LMS choisi) |
+| **Formation interne** | Accompagnement des 25 formateurs permanents + vacataires, tutoriels, support |

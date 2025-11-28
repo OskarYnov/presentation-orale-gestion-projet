@@ -1,0 +1,30 @@
+Choix du Cycle de vie
+
+Oskar Morel
+
+Raphaël Queron
+
+Maxime Fallek
+
+## **Cycle agile**
+
+Justification du choix : Le projet FormaPro consiste à mettre en place une plateforme LMS unifiée pour centraliser la gestion, le suivi et les évaluations des formations.
+Les besoins des utilisateurs (formateurs, stagiaires, entreprises clientes) évoluent encore et devront être ajustés régulièrement pendant le développement.
+De plus, la valeur ajoutée doit être visible rapidement pour répondre à la pression concurrentielle et aux exigences Qualiopi.
+
+| Critère | Justification |
+| --- | --- |
+| **Besoins évolutifs** | Les fonctionnalités exactes (intégration CRM, tableaux de bord, parcours blended) seront affinées avec les retours des utilisateurs. Agile permet d’ajuster en continu. |
+| **Livraisons rapides** | Les premières versions de la plateforme peuvent être livrées et testées dès les premiers sprints, assurant un retour sur investissement précoce. |
+| **Collaboration étroite** | Les équipes FormaPro (pédagogiques, administratives, IT) et le prestataire pourront collaborer activement à chaque sprint. |
+| **Adaptabilité** | Le cadre Agile permet de prioriser les besoins critiques (réduction du temps administratif, conformité Qualiopi) tout en gardant une marge d’évolution. |
+| **Motivation et conduite du changement** | Les formateurs pourront tester progressivement la plateforme, réduisant la résistance au changement et favorisant l’adoption. |
+
+## Lien avec les objectifs SMART :
+
+Le travail en sprints permet de suivre et d’ajuster régulièrement les indicateurs :
+
+- réduction du temps administratif (-50%),
+- augmentation du taux de complétion e-learning (70%),
+- préparation continue à la conformité Qualiopi.
+- Le déploiement progressif garantit une plateforme opérationnelle avant juin 2026.

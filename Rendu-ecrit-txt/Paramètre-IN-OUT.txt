@@ -1,0 +1,99 @@
+Paramètre IN-OUT
+
+Oskar Morel
+
+Raphaël Queron
+
+Maxime Fallek
+
+# **PÉRIMÈTRE IN (Inclus dans le projet)**
+
+## 1. **Plateforme LMS (Learning Management System)**
+
+- Choix, déploiement et personnalisation d’un LMS (SaaS ou développement sur-mesure)
+- Intégration avec Salesforce, Sage et Yousign
+- Hébergement sécurisé et RGPD-compliant
+- Interface web responsive + application mobile (native ou PWA)
+
+## 2. **Gestion administrative des formations**
+
+- Automatisation de l’inscription, convocations, feuilles de présence, facturation
+- Génération automatique de conventions et attestations
+- Signature électronique via Yousign
+- Tableaux de bord pour suivi interne
+
+## 3. **Suivi et traçabilité Qualiopi**
+
+- Enregistrement et archivage des données par session (présences, évaluations, livrables)
+- Export de données pour audits Qualiopi
+- Suivi des indicateurs de performance (taux de complétion, satisfaction…)
+
+## 4. **Digitalisation des contenus**
+
+- Migration des contenus existants (SCORM, PDF, vidéos)
+- Création de nouveaux parcours blended learning (modulaires, flexibles)
+- Outils auteurs intégrés ou interfaçables (selon LMS retenu)
+
+## 5. **Formation des formateurs**
+
+- Accompagnement à la prise en main du LMS
+- Sessions de formation pour 25 permanents et 80 vacataires
+- Mise à disposition de tutoriels, FAQ, support technique
+
+## 6. **Évaluations et certifications**
+
+- Digitalisation complète des évaluations (QCM, quiz, études de cas…)
+- Génération automatique de certificats conformes Qualiopi
+- Statistiques et reporting par session, par entreprise, par formateur
+
+## 7. **Portail entreprises clientes**
+
+- Accès sécurisé pour chaque entreprise (120 au total)
+- Visualisation des formations suivies, progression par collaborateur
+- Téléchargement de documents (émargements, certificats, factures…)
+
+## 8. **Expérience apprenant**
+
+- Navigation fluide, ergonomique et mobile-friendly
+- Notifications (rappels, échéances, évaluations à venir…)
+- Suivi personnel de la progression et accès aux ressources
+
+## 9. **Pilotage & gouvernance du projet**
+
+- Mise en place d’une équipe projet interne (chef de projet, référents métiers)
+- Choix d’un prestataire ou éditeur LMS
+- Suivi du budget, planning, jalons, recette et déploiement progressif
+
+---
+
+# **PÉRIMÈTRE OUT (Hors du projet)**
+
+## Développement d’un LMS entièrement sur-mesure **from scratch**
+
+- Trop coûteux et long (vs solutions SaaS modulables existantes)
+- Risque fort d’échec ou de retard par rapport à l’objectif juin 2026
+
+## Création de contenus pédagogiques de A à Z par FormaPro
+
+- Le projet prévoit **la migration** et **la structuration** des contenus existants, non la **production massive de nouveaux contenus**
+- La création de contenus reste sous la responsabilité des formateurs, avec appui ponctuel du projet (gabarits, outils)
+
+## Refonte du CRM Salesforce ou de la comptabilité Sage
+
+- Intégration fonctionnelle uniquement (échanges de données ciblés)
+- Pas de modification structurelle des outils existants
+
+## Changement de politique commerciale ou d’offre catalogue
+
+- Le projet outille les formats actuels (blended, visio, e-learning)
+- La refonte stratégique de l’offre n’est pas incluse dans le périmètre
+
+## Développement spécifique d’une marketplace ou portail public
+
+- Le portail cible uniquement les **clients existants** et les **apprenants inscrits**
+- Aucun développement e-commerce, inscription publique ou paiement en ligne prévu
+
+## Externalisation totale de l’assistance utilisateurs
+
+- Support basique intégré (FAQ, chat), mais le support reste **géré par FormaPro**
+- Pas de centre de support externalisé dans ce projet

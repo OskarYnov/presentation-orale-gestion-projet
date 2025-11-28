@@ -1,0 +1,225 @@
+# Plan de déploiement
+
+## **Objectif du déploiement**
+
+Mettre en production, de manière progressive, sécurisée et conforme Qualiopi, tout en assurant :
+
+- la continuité de service (aucune interruption de formation),
+- l’accompagnement des formateurs et des entreprises clientes,
+- la fiabilité technique du système,
+- et la conformité Qualiopi (traçabilité, reporting, évaluation).
+
+Le déploiement s’appuie sur les bonnes pratiques suivantes :
+
+**phases DEV → INTÉGRATION → TESTS → RECETTE → PRÉ-PROD → PROD**
+
+et sur les **stratégies de déploiement sans risque** (Blue/Green, Canary Release, Rolling Update)
+
+---
+
+# **1. Préparation du déploiement**
+
+### **1.1. Préparation technique**
+
+- Mise en place des environnements :
+    - **DEV** : développements et paramétrages techniques
+    - **INTÉGRATION** : CI/CD, tests automatiques
+    - **TEST** (QA) : validation fonctionnelle
+    - **RECETTE** : tests utilisateurs réels (formateurs + administratifs)
+    - **PRÉ-PROD** : copie exacte de la production
+    - **PROD** : environnement final pour les 120 entreprises + 3 500 stagiaires
+
+### **1.2. Préparation fonctionnelle**
+
+- Cahier de recette (UAT) : 50–100 cas de tests
+- Checklist de qualité :
+    - traçabilité Qualiopi
+    - certificats PDF
+    - feuilles d’émargement
+    - reporting et tableaux de bord
+- Migration test d’un échantillon de contenus
+
+---
+
+# **2. Phase de tests et recette**
+
+### **2.1. Tests QA (équipe projet)**
+
+- Tests fonctionnels (inscriptions, suivi, évaluations)
+- Tests e-learning SCORM
+- Tests d’intégration Salesforce / Sage / Yousign
+- Tests de performance (jusqu’à 300 connexions simultanées)
+- Tests de sécurité (authentification, RGPD)
+
+### **2.2. Recette utilisateur (UAT)**
+
+**Acteurs :**
+
+- 6 formateurs permanents
+- 3 administratifs
+- 5 représentants d’entreprises clientes
+
+**Durée :** 2 à 3 semaines
+
+**Livrables :**
+
+- Cahier de recette validé
+- Liste des anomalies bloquantes/majeures
+- PV de recette → **GO / NO-GO**
+
+Critère : **95% des tests OK, 0 bug bloquant**.
+
+---
+
+# **3. Stratégie de déploiement**
+
+Le projet FormaPro adopte une stratégie **Canary Release** car :
+
+- 3 500 stagiaires → montée progressive sécurisée
+- 120 entreprises → possibilité de tester avec quelques clients pilotes
+- forte exigence Qualiopi → rollback simple
+- besoin de réduire les risques → idéal
+
+### **Stratégie retenue : CANARY RELEASE**
+
+| **Phase** | **% d’utilisateurs** | **Objectif** |
+| --- | --- | --- |
+| **Étape 1** | 5% (formateurs + 2 entreprises pilotes) | Observer bugs critiques (48h) |
+| **Étape 2** | 20% | Vérifier charge + reporting |
+| **Étape 3** | 50% | Validation parcours blended |
+| **Étape 4** | 100% | Mise en production complète |
+
+# **4. Plan de communication**
+
+### **4.1. Communication interne**
+
+- Annonce officielle par la direction
+- Formation admins + formateurs
+- Guides PDF + vidéos tutorielles
+- Mise à disposition d’une FAQ
+
+### **4.2. Communication externe**
+
+- Mail aux 120 entreprises clientes
+- Webinaire de présentation
+- Documentation client
+- Mise à jour du site institutionnel
+
+---
+
+# **5. Plan d’accompagnement et support**
+
+Conformément aux bonnes pratiques Scrum / pilotage.
+
+### **Pour les formateurs**
+
+- Sessions de formation
+- Tutoriels vidéo + fiches pratiques
+- Support dédié 5j/7 pendant 3 mois
+
+### **Pour les administratifs**
+
+- Formation avancée : gestion sessions, reporting, Qualiopi
+- Accès à un canal Slack / Teams dédié
+
+### **Pour les entreprises clientes**
+
+- Webinaire + documentation
+- Support mail + hotline
+
+---
+
+# **6. Suivi du déploiement et indicateurs**
+
+Le suivi de la mise en production du LMS s’appuie sur **trois indicateurs clés**, permettant de piloter le déploiement, détecter rapidement les dérives et ajuster les actions.
+
+### **1. Suivi de l’avancement**
+
+Permet d’évaluer l’écart entre le planning prévu et l’avancement réel du projet.
+
+Cet indicateur sert à anticiper les retards potentiels et à ajuster la charge ou les priorités si nécessaire.
+
+### **2. Suivi budgétaire**
+
+Assure le contrôle du budget global du projet en comparant les dépenses réelles à celles prévues.
+
+Il permet d’identifier toute dérive financière et de déclencher des actions correctives en cas de dépassement.
+
+### **3. Taux d’adoption du LMS**
+
+Mesure l’utilisation réelle de la plateforme après son déploiement (formateurs, apprenants, entreprises clientes).
+
+Indispensable pour confirmer l’appropriation du nouvel outil et identifier les besoins en communication, formation ou accompagnement.
+
+---
+
+# **7. Maintenance opérationnelle (MCO)**
+
+### **Types de maintenance**
+
+- **Corrective** : bugs post-prod
+- **Évolutive** : nouveaux modules, demandes clients
+- **Préventive** : mises à jour, sécurité
+- **Adaptative** : évolution Salesforce/Sage, RGPD
+
+### **Charge prévisionnelle**
+
+- 10 à 20% du budget initial → **budget MCO** à prévoir
+
+---
+
+# **8. Planning du déploiement (synthèse)**
+
+| 
+Étape du déploiement
+ | 
+Dates
+ | 
+Livrables clés
+ |
+| --- | --- | --- |
+| 
+Tests et recettes fonctionnelles (itérations Agile)
+ | 
+10/06/2026 → 29/06/2026
+ | 
+Validation fonctionnelle, PV de recette (UAT)
+ |
+| 
+Formation des formateurs & administratifs
+ | 
+30/06/2026 → 16/07/2026
+ | 
+Formateurs et équipes internes formés
+ |
+| 
+Communication & accompagnement au changement
+ | 
+17/07/2026 → 31/07/2026
+ | 
+Plan de com’, guides utilisateurs, webinaire clients
+ |
+| 
+Déploiement progressif de la plateforme
+ | 
+03/08/2026 → 24/08/2026
+ | 
+Mise en production progressive (Canary Release)
+ |
+| 
+Suivi des indicateurs SMART & conformité Qualiopi
+ | 
+25/08/2026 → 11/09/2026
+ | 
+KPI, ajustements, preuves Qualiopi
+ |
+
+# **9. Livrables finaux du plan de déploiement**
+
+- Stratégie de déploiement (Canary Release)
+- Cahier de recette + PV UAT
+- Procédures de rollback
+- Plan de communication interne/externe
+- Guides formateurs / administratifs / clients
+- Plan MCO
+- Tableaux de bord KPI

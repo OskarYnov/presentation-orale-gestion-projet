@@ -1,0 +1,39 @@
+# Analyses des risques + mitigation
+
+# SWOT
+
+| **Forces (Strengths)** | **Faiblesses (Weaknesses)** |
+| --- | --- |
+| Approche méthodique et structurée (12 phases détaillées, PERT complet) | Projet complexe et long (plus de 60 tâches réparties sur plusieurs mois) |
+| Bonne anticipation du risque via la méthode PERT (prise en compte des durées pessimistes et optimistes) | Dépendance forte à la disponibilité des équipes internes et des clients |
+| Implication des différentes parties prenantes dès le cadrage (besoins internes/clients, gouvernance, budget) | Risque de silos entre phases (technique vs pédagogique vs communication) |
+| Vision complète : du cadrage stratégique jusqu’au suivi Qualiopi | Risque de surcharge documentaire (multiples livrables, validations successives) |
+| Intégration du LMS avec le SI existant (flux, API, audit technique) | Manque possible d’agilité si les phases sont trop séquentielles |
+| Pilotage qualité intégré (Qualiopi, indicateurs, reporting) | Compétences techniques et pédagogiques à maintenir en interne |
+| Formation et accompagnement inclus pour utilisateurs et formateurs | Coût global élevé en temps et ressources (nombreuses validations et tests) |
+
+| **Forces (Strengths)** | **Faiblesses (Weaknesses)** |
+| --- | --- |
+| Approche méthodique et structurée (12 phases détaillées, PERT complet) | Projet complexe et long (plus de 60 tâches réparties sur plusieurs mois) |
+| Bonne anticipation du risque via la méthode PERT (prise en compte des durées pessimistes et optimistes) | Dépendance forte à la disponibilité des équipes internes et des clients |
+| Implication des différentes parties prenantes dès le cadrage (besoins internes/clients, gouvernance, budget) | Risque de silos entre phases (technique vs pédagogique vs communication) |
+| Vision complète : du cadrage stratégique jusqu’au suivi Qualiopi | Risque de surcharge documentaire (multiples livrables, validations successives) |
+| Intégration du LMS avec le SI existant (flux, API, audit technique) | Manque possible d’agilité si les phases sont trop séquentielles |
+| Pilotage qualité intégré (Qualiopi, indicateurs, reporting) | Compétences techniques et pédagogiques à maintenir en interne |
+| Formation et accompagnement inclus pour utilisateurs et formateurs | Coût global élevé en temps et ressources (nombreuses validations et tests) |
+
+# Proba x Impact
+
+| **Catégorie de risque** | **Description du risque** | **Probabilité** | **Impact** | **Criticité (P×I)** | **Niveau** | **Actions préventives / correctives** |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Intégration SI** | Incompatibilité ou lenteur dans le développement des interfaces API / flux | 3 | 3 | **9** | 🔴 Élevée | Phase de tests anticipée, sandbox technique, validation itérative |
+| **Migration de contenus** | Erreurs ou perte de données lors de la conversion/import dans le LMS | 2 | 3 | **6** | 🟠 Élevée | Back-up complet, plan de migration pilote, tests préalables |
+| **Ressources internes** | Manque de disponibilité des équipes métier / techniques | 3 | 2 | **6** | 🟠 Élevée | Gouvernance projet claire, planification par jalons, relais identifiés |
+| **Choix du LMS** | Mauvaise adéquation du LMS retenu avec les besoins métiers | 2 | 3 | **6** | 🟠 Élevée | Cahier des charges précis, POC solide, implication utilisateurs |
+| **Adoption / conduite du changement** | Résistance des utilisateurs (formateurs, stagiaires, admins) | 3 | 2 | **6** | 🟠 Élevée | Communication interne, formation progressive, feedback continu |
+| **Technique / performance** | Bugs, lenteurs, ou indisponibilités du LMS après paramétrage | 2 | 3 | **6** | 🟠 Élevée | Tests techniques (phase 7 & 8), supervision post-déploiement |
+| **Qualiopi & conformité** | Non-conformité des process (grilles, indicateurs, reporting) | 2 | 2 | **4** | 🟡 Modérée | Audit interne, revue qualité intermédiaire, documentation rigoureuse |
+| **Budget & délais** | Dérive du planning ou dépassement budgétaire | 2 | 3 | **6** | 🟠 Élevée | Suivi PERT mensuel, alertes d’écart, arbitrage gouvernance |
+| **Communication** | Mauvaise communication externe / interne sur le projet | 2 | 2 | **4** | 🟡 Modérée | Plan de communication validé, suivi régulier avec les RH / marketing |
+| **Recette & validation** | Retards sur les tests ou anomalies non corrigées à temps | 2 | 2 | **4** | 🟡 Modérée | Plan de tests clair, priorisation des anomalies, suivi sprint |
+| **Suivi post-déploiement** | Manque de suivi des KPI et correctifs après lancement | 2 | 2 | **4** | 🟡 Modérée | Tableau de bord KPI, revue mensuelle de performance |

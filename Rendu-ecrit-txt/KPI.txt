@@ -1,0 +1,36 @@
+# KPI de pilotage
+
+### **1 - Taux d’avancement du projet**
+
+- **Objectif :** Suivre l’avancement réel des tâches par rapport à la planification.
+- **Formule :**
+
+$$
+\text{Taux d’avancement (\%)}= \frac{\text{J/H consommés}}{\text{J/H prévus}} \times 100
+$$
+
+- **Seuil d’alerte :** < 90 % → risque de retard
+- **Utilité :** Permet d’identifier rapidement les phases en retard et d’ajuster les ressources.
+
+### **2 - Écart budgétaire**
+
+- **Objectif :** Contrôler si le projet reste dans le budget prévu.
+- **Formule :**
+
+$$
+\text{Ecart budgétaire (€)} = \text{Coût réel cumulé}−\text{Budget prévisionnel cumulé}
+$$
+
+- **Seuil d’alerte :** > 10 % → investigation et mesures correctives
+- **Utilité :** Permet de détecter et corriger les dérives financières avant qu’elles deviennent critiques.
+
+### 3 - Taux d’adoption / d’utilisation du LMS
+
+- **Objectif :** Vérifier que la plateforme est réellement utilisée après sa mise en place.
+- **Formule :**
+
+$$
+\text{Taux d’adoption} = \frac{\text{Nombre d’utilisateurs actifs}}{\text{Nombre d’utilisateurs inscrits}} \times 100
+$$
+
+- **Utilité :** Permet de voir si l’application est utilisé et en cas de non utilisation, permet de réfléchir à comment améliorer l’application. Donne le smile si c’est positif.

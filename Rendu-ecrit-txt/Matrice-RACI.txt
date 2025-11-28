@@ -1,0 +1,24 @@
+# Matrice RACI
+
+Oskar Morel
+
+Raphaël Queron
+
+Maxime Fallek
+
+| **Activités / Livrables clés** | **Direction Générale** | **Chef(fe) de projet Digital / Formation** | **Responsable Pédagogique** | **Responsable Administratif** | **Équipe IT / Prestataire LMS** | **Formateurs / Vacataires** | **Entreprises Clientes** | **Autorité Qualiopi** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Cadrage du projet et validation du périmètre** | **A** | **R** | **C** | **C** | **I** | **I** | **I** | **I** |
+| **Choix de la solution LMS (SaaS ou intégration)** | **A** | **R** | **C** | **C** | **C** | **I** | **I** | **I** |
+| **Intégration avec Salesforce, Sage et Yousign** | **I** | **C** | **I** | **I** | **R** | **I** | **I** | **I** |
+| **Migration et structuration des contenus existants** | **I** | **R** | **C** | **I** | **C** | **C** | **I** | **I** |
+| **Conception des parcours blended et e-learning** | **I** | **C** | **R** | **I** | **C** | **C** | **I** | **I** |
+| **Mise en place des outils d’évaluation et reporting Qualiopi** | **I** | **R** | **C** | **C** | **C** | **I** | **I** | **C** |
+| **Développement / Paramétrage de la plateforme** | **I** | **C** | **I** | **I** | **R** | **I** | **I** | **I** |
+| **Tests et recettes fonctionnelles (itérations Agile)** | **I** | **R** | **C** | **C** | **C** | **C** | **C**  | **I** |
+| **Formation des formateurs et administrateurs** | **I** | **R** | **C** | **C** | **C** | **A**  | **I** | **I** |
+| **Communication et accompagnement du changement** | **A** | **R** | **C** | **C** | **I** | **C** | **I** | **I** |
+| **Déploiement progressif de la plateforme (sprints)** | **I** | **R** | **C** | **C** | **C** | **I** | **C**  | **I** |
+| **Suivi des indicateurs SMART (KPI : complétion, satisfaction, temps admin)** | **A** | **R** | **C** | **C** | **I** | **I** | **I** | **C** |
+| **Préparation audit Qualiopi et conformité finale** | **A** | **R** | **C** | **C** | **C** | **I** | **I** | **R** |
+

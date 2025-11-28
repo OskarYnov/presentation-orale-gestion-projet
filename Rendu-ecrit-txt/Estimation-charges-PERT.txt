@@ -1,0 +1,66 @@
+# Estimation des charges (PERT)
+
+---
+
+| Phase | Tâche | Optimiste (O) | Moyen (M) | Pessimiste (P) | Durée PERT = (O+4M+P)/6 |
+| --- | --- | --- | --- | --- | --- |
+| 1. Cadrage | 1.1 Recueil besoins internes | 1 | 2 | 3 | 2 |
+| 1. Cadrage | 1.2 Recueil besoins clients | 1 | 2 | 3 | 2 |
+| 1. Cadrage | 1.3 Analyse systèmes existants | 1 | 2 | 4 | 2.3 |
+| 1. Cadrage | 1.4 Définition périmètre fonctionnel | 1 | 2 | 3 | 2 |
+| 1. Cadrage | 1.5 Validation cahier des charges & budget | 1 | 3 | 5 | 3 |
+| 1. Cadrage | 1.6 Planification & gouvernance | 1 | 2 | 3 | 2 |
+| 2. Choix LMS | 2.1 Étude de marché LMS | 1 | 3 | 4 | 2.7 |
+| 2. Choix LMS | 2.2 Critères de sélection | 1 | 2 | 3 | 2 |
+| 2. Choix LMS | 2.3 Organisation du POC | 2 | 4 | 6 | 4 |
+| 2. Choix LMS | 2.4 Analyse comparative & reco | 1 | 2 | 4 | 2.3 |
+| 2. Choix LMS | 2.5 Validation direction | 0.5 | 1 | 2 | 1.1 |
+| 3. Intégration SI | 3.1 Audit des flux existants | 1 | 3 | 5 | 3 |
+| 3. Intégration SI | 3.2 Conception des interfaces API | 2 | 5 | 8 | 5 |
+| 3. Intégration SI | 3.3 Dév & tests techniques | 5 | 10 | 15 | 10 |
+| 3. Intégration SI | 3.4 Validation transfert de données | 1 | 3 | 5 | 3 |
+| 3. Intégration SI | 3.5 Documentation technique | 1 | 2 | 3 | 2 |
+| 4. Migration contenus | 4.1 Inventaire contenus | 1 | 2 | 3 | 2 |
+| 4. Migration contenus | 4.2 Nettoyage formats | 2 | 4 | 6 | 4 |
+| 4. Migration contenus | 4.3 Structuration thématique | 2 | 4 | 6 | 4 |
+| 4. Migration contenus | 4.4 Conversion & import LMS | 3 | 6 | 9 | 6 |
+| 4. Migration contenus | 4.5 Tests contenus | 1 | 2 | 4 | 2.3 |
+| 5. Parcours pédagogiques | 5.1 Définition parcours types | 1 | 2 | 3 | 2 |
+| 5. Parcours pédagogiques | 5.2 Objectifs pédagogiques | 1 | 2 | 3 | 2 |
+| 5. Parcours pédagogiques | 5.3 Création templates parcours | 2 | 4 | 6 | 4 |
+| 5. Parcours pédagogiques | 5.4 Construction pilotes | 2 | 4 | 7 | 4.2 |
+| 5. Parcours pédagogiques | 5.5 Tests & validation | 1 | 2 | 4 | 2.3 |
+| 6. Évaluation & Qualiopi | 6.1 Grilles d’évaluation | 1 | 2 | 3 | 2 |
+| 6. Évaluation & Qualiopi | 6.2 Questionnaires en ligne | 1 | 3 | 4 | 2.7 |
+| 6. Évaluation & Qualiopi | 6.3 Indicateurs performance | 1 | 2 | 3 | 2 |
+| 6. Évaluation & Qualiopi | 6.4 Reporting Qualiopi | 1 | 3 | 5 | 3 |
+| 6. Évaluation & Qualiopi | 6.5 Certificats auto | 1 | 2 | 4 | 2.3 |
+| 7. Paramétrage plateforme | 7.1 Installation & config LMS | 2 | 4 | 7 | 4.2 |
+| 7. Paramétrage plateforme | 7.2 Rôles & profils | 1 | 2 | 4 | 2.3 |
+| 7. Paramétrage plateforme | 7.3 Branding & UI | 1 | 3 | 5 | 3 |
+| 7. Paramétrage plateforme | 7.4 Catalogue formations (150) | 4 | 8 | 14 | 8.3 |
+| 7. Paramétrage plateforme | 7.5 Tests techniques | 1 | 3 | 5 | 3 |
+| 8. Recette | 8.1 Plan de tests | 1 | 2 | 3 | 2 |
+| 8. Recette | 8.2 Sprints validation | 3 | 6 | 9 | 6 |
+| 8. Recette | 8.3 Corrections anomalies | 2 | 4 | 7 | 4.2 |
+| 8. Recette | 8.4 Recette finale | 1 | 2 | 3 | 2 |
+| 9. Formation | 9.1 Supports formation | 2 | 4 | 6 | 4 |
+| 9. Formation | 9.2 Formateurs permanents | 1 | 3 | 5 | 3 |
+| 9. Formation | 9.3 Formateurs vacataires | 1 | 2 | 4 | 2.3 |
+| 9. Formation | 9.4 Formation admins | 1 | 2 | 4 | 2.3 |
+| 9. Formation | 9.5 Feedback prise en main | 1 | 2 | 3 | 2 |
+| 10. Changement | 10.1 Communication interne | 1 | 2 | 4 | 2.3 |
+| 10. Changement | 10.2 Communication externe clients | 1 | 2 | 3 | 2 |
+| 10. Changement | 10.3 Info stagiaires | 1 | 2 | 4 | 2.3 |
+| 10. Changement | 10.4 Support utilisateur & FAQ | 2 | 4 | 6 | 4 |
+| 10. Changement | 10.5 Suivi adoption | 1 | 3 | 5 | 3 |
+| 11. Déploiement | 11.1 Pilote formations tests | 1 | 3 | 5 | 3 |
+| 11. Déploiement | 11.2 Ajustements retours | 1 | 2 | 4 | 2.3 |
+| 11. Déploiement | 11.3 Déploiement par vagues | 2 | 6 | 10 | 6 |
+| 11. Déploiement | 11.4 Monitoring & support | 1 | 3 | 5 | 3 |
+| 11. Déploiement | 11.5 Validation généralisation | 1 | 2 | 3 | 2 |
+| 12. Suivi final | 12.1 Suivi KPI | 1 | 3 | 5 | 3 |
+| 12. Suivi final | 12.2 Reporting mensuel | 1 | 2 | 3 | 2 |
+| 12. Suivi final | 12.3 Correctifs fonctionnels | 1 | 3 | 6 | 3.5 |
+| 12. Suivi final | 12.4 Préparation Qualiopi | 1 | 3 | 5 | 3 |
+| 12. Suivi final | 12.5 Clôture projet | 1 | 2 | 3 | 2 |

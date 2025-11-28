@@ -1,0 +1,129 @@
+# Budget détaillé
+
+# TJM par acteur
+
+| Acteur | Salaire annuel brut | Coût employeur + indirects | Jours productifs/an | **TJM employé (€)** |
+| --- | --- | --- | --- | --- |
+| Direction Générale | 84 000 € | 140 070 € | 172 | **814,36** |
+| Chef(fe) de projet Digital / Formation | 54 000 € | 90 045 € | 172 | **523,52** |
+| Responsable Pédagogique | 48 000 € | 80 040 € | 172 | **465,35** |
+| Responsable Administratif | 39 600 € | 66 033 € | 172 | **383,91** |
+| Équipe IT / Prestataire LMS (interne) | 51 600 € | 86 043 € | 172 | **500,25** |
+| Formateurs / Vacataires (employés) | 38 400 € | 64 032 € | 172 | **372,28** |
+
+> NB : “Entreprises clientes” et “Autorité Qualiopi” ne sont pas facturées en TJM interne. Les frais d’audit/licence sont à part
+> 
+
+---
+
+# Coût par tâche
+
+| Phase | Tâche | Durée (J/H) | **Coût (€)** |
+| --- | --- | --- | --- |
+| 1 | 1.1 Recueil besoins internes | 2.0 | **967,93** |
+| 1 | 1.2 Recueil besoins clients | 2.0 | **1 081,94** |
+| 1 | 1.3 Analyse systèmes existants | 2.3 | **1 166,63** |
+| 1 | 1.4 Définition périmètre fonctionnel | 2.0 | **1 140,11** |
+| 1 | 1.5 Validation cahier & budget | 3.0 | **2 006,82** |
+| 1 | 1.6 Planification & gouvernance | 2.0 | **1 163,38** |
+| 2 | 2.1 Étude de marché LMS | 2.7 | **1 557,78** |
+| 2 | 2.2 Critères de sélection | 2.0 | **990,45** |
+| 2 | 2.3 Organisation du POC | 4.0 | **1 989,44** |
+| 2 | 2.4 Analyse comparative & reco | 2.3 | **1 277,81** |
+| 2 | 2.5 Validation direction | 1.1 | **544,11** |
+| 3 | 3.1 Audit des flux existants | 3.0 | **1 492,08** |
+| 3 | 3.2 Conception interfaces API | 5.0 | **2 538,01** |
+| 3 | 3.3 Dév & tests techniques | 10.0 | **5 271,80** |
+| 3 | 3.4 Validation transfert de données | 3.0 | **1 735,43** |
+| 3 | 3.5 Documentation technique | 2.0 | **994,03** |
+| 4 | 4.1 Inventaire contenus | 2.0 | **926,75** |
+| 4 | 4.2 Nettoyage formats | 4.0 | **1 675,26** |
+| 4 | 4.3 Structuration thématique | 4.0 | **1 749,30** |
+| 4 | 4.4 Conversion & import LMS | 6.0 | **2 964,23** |
+| 4 | 4.5 Tests contenus | 2.3 | **788,30** |
+| 5 | 5.1 Définition parcours types | 2.0 | **926,75** |
+| 5 | 5.2 Objectifs pédagogiques | 2.0 | **910,67** |
+| 5 | 5.3 Création templates parcours | 4.0 | **1 749,30** |
+| 5 | 5.4 Construction pilotes | 4.2 | **2 143,21** |
+| 5 | 5.5 Tests & validation | 2.3 | **1 012,38** |
+| 6 | 6.1 Grilles d’évaluation | 2.0 | **913,43** |
+| 6 | 6.2 Questionnaires en ligne | 2.7 | **1 389,28** |
+| 6 | 6.3 Indicateurs performance | 2.0 | **898,65** |
+| 6 | 6.4 Reporting Qualiopi | 3.0 | **1 393,64** |
+| 6 | 6.5 Certificats auto | 2.3 | **957,35** |
+| 7 | 7.1 Installation & config LMS | 4.2 | **2 112,17** |
+| 7 | 7.2 Rôles & profils | 2.3 | **1 039,01** |
+| 7 | 7.3 Branding & UI | 3.0 | **1 539,91** |
+| 7 | 7.4 Catalogue formations (150) | 8.3 | **4 386,09** |
+| 7 | 7.5 Tests techniques | 3.0 | **1 492,08** |
+| 8 | 8.1 Plan de tests | 2.0 | **1 029,05** |
+| 8 | 8.2 Sprints validation | 6.0 | **3 015,77** |
+| 8 | 8.3 Corrections anomalies | 4.2 | **2 435,87** |
+| 8 | 8.4 Recette finale | 2.0 | **1 146,57** |
+| 9 | 9.1 Supports formation | 4.0 | **1 801,70** |
+| 9 | 9.2 Formateurs permanents | 3.0 | **1 141,34** |
+| 9 | 9.3 Formateurs vacataires | 2.3 | **785,51** |
+| 9 | 9.4 Formation admins | 2.3 | **1 024,14** |
+| 9 | 9.5 Feedback prise en main | 2.0 | **946,45** |
+| 10 | 10.1 Communication interne | 2.3 | **1 211,27** |
+| 10 | 10.2 Communication externe clients | 2.0 | **1 228,92** |
+| 10 | 10.3 Info stagiaires | 2.3 | **1 056,38** |
+| 10 | 10.4 Support utilisateur & FAQ | 4.0 | **1 702,78** |
+| 10 | 10.5 Suivi adoption | 3.0 | **1 455,45** |
+| 11 | 11.1 Pilote formations tests | 3.0 | **1 451,51** |
+| 11 | 11.2 Ajustements retours | 2.3 | **1 116,05** |
+| 11 | 11.3 Déploiement par vagues | 6.0 | **3 062,29** |
+| 11 | 11.4 Monitoring & support | 3.0 | **1 615,54** |
+| 11 | 11.5 Validation généralisation | 2.0 | **1 084,33** |
+| 12 | 12.1 Suivi KPI | 3.0 | **1 582,11** |
+| 12 | 12.2 Reporting mensuel | 2.0 | **910,77** |
+| 12 | 12.3 Correctifs fonctionnels | 3.5 | **1 826,20** |
+| 12 | 12.4 Préparation Qualiopi | 3.0 | **1 582,11** |
+| 12 | 12.5 Clôture projet | 2.0 | **1 146,57** |
+
+---
+
+## Synthèse & totaux
+
+- **Charge totale (somme PERT)** : **185,2 J/H**
+- **Coût total (personnel)** : **90 610,69 €**
+
+**Par phase :**
+
+| Phase | **Sous-total (€)** |
+| --- | --- |
+| 1. Cadrage | **7 526,81** |
+| 2. Choix LMS | **6 359,59** |
+| 3. Intégration SI | **11 531,35** |
+| 4. Migration contenus | **8 103,84** |
+| 5. Parcours pédagogiques | **6 403,45** |
+| 6. Évaluation & Qualiopi | **5 552,31** |
+| 7. Paramétrage plateforme | **10 103,08** |
+| 8. Recette | **7 281,80** |
+| 9. Formation | **5 946,47** |
+| 10. Changement | **6 654,85** |
+| 11. Déploiement | **8 229,72** |
+| 12. Suivi final | **6 917,42** |
+
+**Par acteur (répartition implicite) :**
+
+| Acteur | J/H | **Coût (€)** |
+| --- | --- | --- |
+| Direction Générale | 6,93 | **5 643,51** |
+| Chef(fe) de projet | 49,91 | **26 128,88** |
+| Responsable Pédagogique | 41,59 | **19 353,91** |
+| Responsable Administratif | 16,94 | **6 503,44** |
+| Équipe IT | 54,58 | **27 303,65** |
+| Formateurs | 15,25 | **5 677,27** |
+
+> Les petits écarts d’arrondi expliquent la différence de quelques centimes.
+> 
+
+---
+
+## Coûts externes
+
+- **Licence LMS SaaS** : 800–2 000 €/mois selon volumétrie (utilisateurs actifs, options SSO, visio, stockage).
+- **Audit Qualiopi** : ~1 400–1 900 € (initial), ~900–1 400 € (surveillance).
+- **Outillage** (ex : e-signature, visioconf pro, stockage vidéo) : 150–400 €/mois selon options.
+- **Communication** (landing, assets, emailing) : 1 000–3 000 € one-shot si externalisé.

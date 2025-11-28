@@ -1,0 +1,167 @@
+# WBS
+
+## **1. Cadrage du projet et validation du périmètre**
+
+1.1 Recueil des besoins internes (formateurs, admin, direction)
+
+1.2 Recueil des besoins clients (grands comptes, stagiaires)
+
+1.3 Analyse des systèmes existants (Excel, Zoom, plateforme e-learning actuelle)
+
+1.4 Définition du périmètre fonctionnel et technique
+
+1.5 Validation du cahier des charges et du budget
+
+1.6 Planification prévisionnelle et gouvernance projet
+
+---
+
+## **2. Choix de la solution LMS (SaaS ou intégration)**
+
+2.1 Étude de marché des LMS (Moodle, Rise Up, 360Learning, Talentsoft, etc.)
+
+2.2 Définition des critères de sélection (coût, compatibilité, UX, support)
+
+2.3 Organisation d’un POC (Proof of Concept)
+
+2.4 Analyse comparative et recommandation
+
+2.5 Validation du choix final par la direction
+
+---
+
+## **3. Intégration avec Salesforce, Sage et Yousign**
+
+3.1 Audit des flux existants et identification des points d’intégration
+
+3.2 Conception des interfaces API / connecteurs
+
+3.3 Développement et tests techniques
+
+3.4 Validation du transfert de données (prospects, factures, conventions signées)
+
+3.5 Documentation technique
+
+---
+
+## **4. Migration et structuration des contenus existants**
+
+4.1 Inventaire des contenus actuels (PDF, vidéos, quiz, etc.)
+
+4.2 Nettoyage et uniformisation des formats
+
+4.3 Structuration par thématique et niveau
+
+4.4 Conversion et importation dans le LMS
+
+4.5 Tests et validation des contenus importés
+
+---
+
+## **5. Conception des parcours blended et e-learning**
+
+5.1 Définition des parcours types (présentiel / distanciel / e-learning)
+
+5.2 Définition des objectifs pédagogiques et compétences associées
+
+5.3 Création de gabarits de parcours (templates)
+
+5.4 Construction de parcours pilotes
+
+5.5 Validation pédagogique et tests utilisateurs
+
+---
+
+## **6. Mise en place des outils d’évaluation et reporting Qualiopi**
+
+6.1 Conception des grilles d’évaluation (avant, pendant, après formation)
+
+6.2 Paramétrage des questionnaires en ligne
+
+6.3 Définition des indicateurs de performance (complétion, satisfaction, ROI)
+
+6.4 Configuration du reporting automatique Qualiopi
+
+6.5 Génération automatisée des certificats
+
+---
+
+## **7. Développement / Paramétrage de la plateforme**
+
+7.1 Installation et configuration du LMS choisi
+
+7.2 Création des profils utilisateurs et rôles (formateurs, stagiaires, admin)
+
+7.3 Personnalisation de l’interface et du branding FormaPro
+
+7.4 Paramétrage du catalogue de formations (150 formations)
+
+7.5 Tests techniques et ajustements
+
+---
+
+## **8. Tests et recettes fonctionnelles (itérations Agile)**
+
+8.1 Plan de tests fonctionnels et scénarios utilisateurs
+
+8.2 Organisation de sprints de validation (itératif)
+
+8.3 Collecte des retours et correction des anomalies
+
+8.4 Validation finale de la recette
+
+---
+
+## **9. Formation des formateurs et administrateurs**
+
+9.1 Élaboration des supports de formation (guides, vidéos, tutoriels)
+
+9.2 Sessions de formation des formateurs permanents
+
+9.3 Formation des formateurs vacataires (en distanciel)
+
+9.4 Formation des administrateurs internes (plateforme, reporting)
+
+9.5 Évaluation de la prise en main et feedback
+
+---
+
+## **10. Communication et accompagnement du changement**
+
+10.1 Plan de communication interne (mailing, réunions, intranet)
+
+10.2 Communication externe clients (newsletters, présentation plateforme)
+
+10.3 Campagne d’information stagiaires
+
+10.4 Mise en place du support utilisateur et FAQ
+
+10.5 Suivi de l’adoption (indicateurs d’usage)
+
+---
+
+## **11. Déploiement progressif de la plateforme (sprints)**
+
+11.1 Déploiement pilote sur un groupe de formations tests
+
+11.2 Analyse des retours et ajustements
+
+11.3 Déploiement par vagues successives (par thématique)
+
+11.4 Monitoring de la stabilité et du support
+
+11.5 Validation de la phase de généralisation
+
+---
+
+## **12. Suivi des indicateurs SMART et conformité finale**
+
+12.1 Suivi des KPI : taux de complétion, satisfaction, réduction du temps admin
+
+12.2 Reporting mensuel pour direction et clients grands comptes
+
+12.3 Mises à jour fonctionnelles / correctifs
+
+12.4 Préparation audit Qualiopi
+
+12.5 Clôture projet et bilan global

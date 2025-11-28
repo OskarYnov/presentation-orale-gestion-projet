@@ -1,0 +1,101 @@
+# Backlog
+
+## **Épic 1 – Gestion des utilisateurs & accès**
+
+| ID | User Story | Critères d’acceptation | Estimation |
+| --- | --- | --- | --- |
+| US-01 | En tant que **stagiaire**, je veux **créer un compte et me connecter**, afin d’accéder à mon espace de formation. | ✔ Authentification email/mot de passe✔ Message erreur si identifiants incorrects✔ Mot de passe oublié | 5 SP |
+| US-02 | En tant que **formateur**, je veux **accéder à mon espace personnel**, afin de gérer mes sessions. | ✔ Tableau de bord personnel✔ Permissions spécifiques formateur | 3 SP |
+| US-03 | En tant qu’**administrateur**, je veux **attribuer des rôles aux utilisateurs**, afin de contrôler les accès. | ✔ Rôles stagiaire/formateur/admin/entreprise✔ Modification des rôles possible | 8 SP |
+
+---
+
+## **Épic 2 – Catalogue de formations**
+
+| ID | User Story | Critères d’acceptation | Estimation |
+| --- | --- | --- | --- |
+| US-04 | En tant que **stagiaire**, je veux **consulter le catalogue des formations**, afin de voir les programmes disponibles. | ✔ Recherche + filtres par thème / format / niveau✔ Affichage des détails d’une formation | 5 SP |
+| US-05 | En tant que **formateur**, je veux **déposer un nouveau module de formation**, afin qu’il soit disponible pour les stagiaires. | ✔ Upload PDF/vidéo/supports✔ Validation administrateur avant publication | 8 SP |
+
+---
+
+## **Épic 3 – Inscription & sessions**
+
+| ID | User Story | Critères d’acceptation | Estimation |
+| --- | --- | --- | --- |
+| US-06 | En tant que **stagiaire**, je veux **m’inscrire à une session**, afin de participer à une formation. | ✔ Bouton d’inscription✔ Confirmation email✔ Session visible dans mon espace | 5 SP |
+| US-07 | En tant qu’**administrateur**, je veux **créer/planifier des sessions**, afin d’attribuer des formateurs et des stagiaires. | ✔ Dates, formateur, salle/distanciel, nombre de places✔ Enregistrement en base | 13 SP |
+
+---
+
+## **Épic 4 – E-learning et progression**
+
+| ID | User Story | Critères d’acceptation | Estimation |
+| --- | --- | --- | --- |
+| US-08 | En tant que **stagiaire**, je veux **accéder aux modules e-learning**, afin d’apprendre en autonomie. | ✔ Vidéo + documents + activités✔ Reprise automatique du module interrompu | 13 SP |
+| US-09 | En tant que **stagiaire**, je veux **voir ma progression**, afin de savoir où j’en suis. | ✔ Barre d’avancement✔ Indication modules terminés / non terminés | 5 SP |
+| US-10 | En tant que **formateur**, je veux **suivre la progression des stagiaires**, afin d'identifier les retards. | ✔ Tableau des progressions✔ Export Excel | 8 SP |
+
+---
+
+## **Épic 5 – Évaluations & satisfaction**
+
+| ID | User Story | Critères d’acceptation | Estimation |
+| --- | --- | --- | --- |
+| US-11 | En tant que **stagiaire**, je veux **passer une évaluation en ligne**, afin de valider mes acquis. | ✔ QCM + questions ouvertes✔ Score automatiquement calculé | 8 SP |
+| US-12 | En tant que **administrateur**, je veux **analyser les résultats et taux de satisfaction**, afin d’améliorer les formations. | ✔ Dashboard consolidé par session✔ Export PDF | 13 SP |
+
+---
+
+## **Épic 6 – Génération des certificats & conformité Qualiopi**
+
+| ID | User Story | Critères d’acceptation | Estimation |
+| --- | --- | --- | --- |
+| US-13 | En tant que **stagiaire**, je veux **recevoir un certificat automatique en fin de formation**, afin de prouver ma participation. | ✔ Format PDF✔ Signature électronique Yousign✔ QR Code / ID vérifiable | 8 SP |
+| US-14 | En tant qu’**administrateur**, je veux **pouvoir tracer les présences / résultats / certificats**, afin d’être conforme Qualiopi. | ✔ Historique horodaté✔ Archivage 5 ans | 13 SP |
+
+---
+
+## **Épic 7 – Espace entreprise cliente**
+
+| ID | User Story | Critères d’acceptation | Estimation |
+| --- | --- | --- | --- |
+| US-15 | En tant qu’**entreprise cliente**, je veux **suivre les formations de mes collaborateurs**, afin de contrôler leur montée en compétences. | ✔ Dashboard collaborateurs✔ Visualisation des résultats et certificats | 13 SP |
+
+---
+
+## **Épic 8 – Communication & support**
+
+| ID | User Story | Critères d’acceptation | Estimation |
+| --- | --- | --- | --- |
+| US-16 | En tant que **stagiaire**, je veux **contacter mon formateur**, afin d’obtenir de l’aide. | ✔ Messagerie interne simple✔ Notification email | 5 SP |
+| US-17 | En tant qu’**administrateur**, je veux **consulter les demandes de support**, afin d’y répondre rapidement. | ✔ Système de tickets✔ Statut (ouvert / en cours / résolu) | 8 SP |
+
+---
+
+## **Épic 9 – Intégrations externes**
+
+| ID | User Story | Critères d’acceptation | Estimation |
+| --- | --- | --- | --- |
+| US-18 | En tant que **administrateur**, je veux **synchroniser les données clients avec Salesforce**, afin d’éviter la double saisie. | ✔ API Salesforce✔ Détection doublons | 13 SP |
+| US-19 | En tant que **administrateur**, je veux **intégrer Sage pour la facturation**, afin d’automatiser les paiements. | ✔ Export automatique✔ Historique factures | 20 SP |
+
+---
+
+## **Épic 10 – Sécurité, performance et technique**
+
+| ID | User Story | Critères d’acceptation | Estimation |
+| --- | --- | --- | --- |
+| US-20 | En tant qu’**utilisateur**, je veux **que la plateforme soit rapide**, afin de travailler sans lenteur. | ✔ Page chargée < 2 sec✔ Tests de charge validés | 13 SP |
+| US-21 | En tant qu’**administrateur**, je veux **que les données soient sécurisées**, afin de protéger la confidentialité. | ✔ RGPD✔ Permissions par rôle✔ Anti-intrusion | 20 SP |
+
+---
+
+## Vision release
+
+| Version | Objectif | Stories incluses |
+| --- | --- | --- |
+| **V1** | Mise en service du cœur de produit | US01 → US10 |
+| **V2** | Conformité Qualiopi & certificats | US11 → US14 |
+| **V3** | Experience entreprise & support | US15 → US17 |
+| **V4** | Intégrations & scalabilité | US18 → US21 |

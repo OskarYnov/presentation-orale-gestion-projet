@@ -1,0 +1,30 @@
+# Stratégie de tests
+
+## **Objectif de la stratégie**
+
+Garantir que la nouvelle plateforme de formation répond aux exigences métier et Qualiopi, tout en offrant une expérience fluide et fiable aux utilisateurs (stagiaires, formateurs, entreprises clientes et administrateurs).
+
+La stratégie vise à détecter les anomalies le plus tôt possible, réduire les risques avant la mise en production, et assurer une qualité continue du produit.
+
+---
+
+## **Approche structurée – Pyramide de tests**
+
+| Niveau | Type de tests | Objectifs | Responsable | Automatisation |
+| --- | --- | --- | --- | --- |
+| **Base (70%)** | Tests unitaires | Fiabilité des composants isolés (ex. calcul des présences, export des résultats) | Développeurs | Oui |
+| **Intermédiaire (20%)** | Tests d'intégration et E2E | Validation des parcours métier complets | QA + Développeurs | Partielle |
+| **Sommet (10%)** | Tests d’acceptation utilisateurs (UAT / Recette) | Validation finale par les métiers et Qualiopi | Formateurs + Admin + Entreprises clientes | Non |
+
+---
+
+## **Périmètre fonctionnel prioritaire**
+
+Les tests couvriront en priorité les parcours critiques pour l’activité de FormaPro :
+
+| Profil utilisateur | Parcours à tester | Objectifs |
+| --- | --- | --- |
+| **Stagiaire** | Catalogue, accès aux modules, progression, évaluations | Assurer un apprentissage fluide et mesurable |
+| **Formateur** | Ajout de contenus, suivi des groupes, gestion des évaluations | Simplifier le pilotage pédagogique |
+| **Administrateur** | Création sessions, reporting, certificats, gestion des comptes | Garantir traçabilité et conformité |
+| **Entreprise cliente** | Tableau de bord RH, suivi des collaborateurs | Valoriser le ROI de la formation |

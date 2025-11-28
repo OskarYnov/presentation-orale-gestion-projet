@@ -1,0 +1,37 @@
+# Cartographie des parties prenantes
+
+Oskar Morel
+
+Raphaël Queron
+
+Maxime Fallek
+
+# **Cartographie des parties prenantes du projet FormaPro**
+
+---
+
+## **1. Parties prenantes internes**
+
+| **Acteur** | **Rôle / Intérêt** | **Pouvoir d’influence** | **Attente principale** | **Implication dans le projet** |
+| --- | --- | --- | --- | --- |
+| **Direction générale** | Porte le projet stratégique, valide le budget, fixe les objectifs | ⚫⚫⚫⚫⚫ Très élevé | Moderniser l’offre, rester compétitif, conserver Qualiopi | Pilotage stratégique, arbitrage |
+| **Responsable formation / pédagogique** | Supervise les contenus, les formateurs, la qualité | ⚫⚫⚫⚫ Élevé | Amélioration du suivi, de la personnalisation des parcours, de la satisfaction clients | Co-conception du LMS, définition des besoins |
+| **Responsable administratif** | Gère la logistique, inscriptions, convocations, facturation | ⚫⚫⚫ Moyen | Réduction du temps de saisie, automatisation | Spécification des processus à digitaliser |
+| **Formateurs permanents (25)** | Utilisateurs du LMS / animateurs de parcours | ⚫⚫ Faible | Outils simples, clairs, adaptés à leur niveau digital | Formation, accompagnement |
+| **Vacataires (80)** | Intervenants externes | ⚫ Faible | Accès rapide aux infos de session, outils simples | Formation minimale, support |
+| **Équipe IT (interne ou prestataire)** | Assure l’intégration technique, la sécurité et la maintenance | ⚫⚫⚫ Moyen à élevé (selon organisation) | Solution stable, interopérable avec Salesforce, Sage, Yousign | Intégration, paramétrage, support technique |
+| **Chefferie de projet (digital/formation)** | Pilote le déploiement du LMS et les livrables associés | ⚫⚫⚫⚫ Élevé | Respect des délais, coûts et qualité | Coordination globale du projet |
+
+---
+
+## **2. Parties prenantes externes**
+
+| **Acteur** | **Rôle / Intérêt** | **Pouvoir d’influence** | **Attente principale** | **Implication dans le projet** |
+| --- | --- | --- | --- | --- |
+| **Entreprises clientes (120)** | Clients finaux (commandent des formations) | ⚫⚫⚫⚫ Élevé (surtout les grands comptes) | Portail de suivi, visibilité, traçabilité, blended learning | Consultées, pilotes pour test plateforme |
+| **Stagiaires (3500/an)** | Utilisateurs finaux des contenus | ⚫ Faible (mais expérience clé) | Accès simple, contenus engageants, mobile-friendly | Tests utilisateurs, enquêtes de satisfaction |
+| **Autorité de certification Qualiopi** | Audite la conformité du système de formation | ⚫⚫ Moyen | Traçabilité, qualité des parcours et données | Livrables Qualiopi à produire via le LMS |
+| **Prestataire LMS / éditeur de solution** | Fournisseur de la solution digitale | ⚫⚫⚫ Moyen à élevé | Mise en œuvre conforme au cahier des charges | Déploiement, 
+développement, support, maintenance |
+| **Prestataires e-learning / contenus SCORM** | Créent ou adaptent des modules e-learning | ⚫ Moyen | Modules interactifs, compatibles LMS, pédagogiques | Migration des contenus, production |
+| **Prestataire intégrateur Salesforce/Sage** | Assurent les connexions entre systèmes | ⚫ Moyen | API fonctionnelles, flux automatiques | Paramétrage, recette, maintenance |

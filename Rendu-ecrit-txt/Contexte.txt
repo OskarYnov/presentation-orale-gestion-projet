@@ -1,0 +1,95 @@
+# Contexte projet
+
+Oskar Morel
+
+Maxime Fallek
+
+Raphaël Queron
+
+## **Contexte organisationnel**
+
+**FormaPro** est un organisme de formation professionnelle qui accompagne 120 entreprises clientes et forme 3 500 stagiaires par an. L'organisme emploie 25 formateurs permanents et fait appel à 80 formateurs vacataires.
+
+**Catalogue** : 150 formations différentes (informatique, management, langues, soft skills, technique industrielle)
+
+### **Formats actuels** :
+
+70% présentiel
+
+20% distanciel synchrone (visio)
+
+10% e-learning asynchrone (modules vidéo)
+
+## **Situation actuelle**
+
+FormaPro utilise actuellement plusieurs outils non intégrés :
+
+**Gestion administrative** : Excel (inscriptions, présences, facturation)
+
+**E-learning** : Quelques modules sur une plateforme hébergée externe (solution basique)
+
+**Visioconférence** : Zoom
+
+**Évaluations** : Papier ou Google Forms
+
+[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAo0lEQVR4AWyQ0Q3DIAxEE89UREZJUEZIBaOEwAiUMkoRM5WWQ/nwB0iWjndnyTZN9wshKCnlh4i+KGiw25568DiOa9/3V85Z1loJBQ0GD2FCl/f+ic+o4MUYN3LO6VGAM2utplLKg8ORbhnRZxyZnM3z/CMhROFwpJEhrbUdmZwZYywppd4tfHGDa4TWdU19RmyVUtqWZcHBazt4hQY7z9Og8Q8AAP//lWcrgAAAAAZJREFUAwB4rkqZSEofGAAAAABJRU5ErkJggg==)
+
+**Certificats** : Générés manuellement sous Word
+
+### **Problèmes identifiés** :
+
+Temps administratif important (saisies multiples, erreurs de ressaisie)
+
+Difficulté à suivre la progression des apprenants
+
+Pas de parcours personnalisés
+
+Évaluations difficiles à exploiter (pas de statistiques)
+
+[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWyQUQrDIBBEkz1TxRwlkRwhRY+i1SNY61Eqnqk2GcnHfigsjO+NIEvTfWKMSkr5JaIfBhns1lMvHsfx2vf9XUqRrTXCIIPBoUx4FUJ44jIauJTSRt57PSpw5pzTVGt9cDjKV0f0P44kZ/M8/0kIUTkcZXRIa+1GkjNjjCOl1AeBC57h1nXN/Y/WWpNz3pZlwcLbtfCGDAaHhycAAAD//w53AwoAAAAGSURBVAMAeQBKmSMQCBcAAAAASUVORK5CYII=)
+
+Les clients demandent de plus en plus de blended learning (mixte présentiel/distanciel)
+
+## **Déclencheur du projet**
+
+**Certification Qualiopi** : FormaPro a obtenu la certification en 2023, qui impose une traçabilité rigoureuse des formations. L'organisme doit moderniser ses outils pour maintenir cette certification lors du prochain audit (dans 18 mois).
+
+**Pression concurrentielle** : Des concurrents proposent des plateformes modernes avec suivi en temps réel pour les entreprises clientes.
+
+**Demande clients** : 65% des entreprises clientes demandent des formations hybrides et un accès à un espace de suivi de leurs collaborateurs.
+
+## **Données complémentaires**
+
+3 500 stagiaires/an répartis sur 600 sessions
+
+Taux de complétion actuel des modules e-learning : 45% (trop faible)
+
+Taux de satisfaction formations : 8,2/10
+
+[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWxQiwnDIBANt5OYURLJCGnVTTQ6grWOUnGmSvMkhSAKD97v4DyarhdCEJzzDxF9AXB4Vzy14r7vx7Ztr5wzr7USAA4PGcqEKe/9A2IEZDHGlZxzz1Hh7llrJZVS2N0ccXTajqOw94gxVnqz1+iQlNL2Qa+11oaEEO+zfPThXyul7LIsqe2IX6WU1nmecfB6HryCwzPGKAz9AAAA//8smY1WAAAABklEQVQDANLSSZkcWiSOAAAAAElFTkSuQmCC)
+
+25% du CA provient de 5 grands comptes (exigences élevées)
+
+## **Systèmes existants**
+
+CRM : Salesforce (gestion prospects et clients)
+
+Comptabilité : Sage
+
+[](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAnklEQVR4AXSQ4QnDIBCFw+0kZpREMoKtuolWR7DWUSrOVGmf5EcQKxy8e9+TO46W88UYBef8TUQfFDS8Ey89KKV8HMfxLKXw1hqhoOGBIUz4FUK4oZkVWEppJ+/9fRa4es45RbVWdjVnGpm+4wyOHjHG6miOPTKklHIjGHtjjCUhxEtr/TcMtm1b7jtaa3XOeV/XFQdvv4M3aHhgmPAFAAD//15E2k8AAAAGSURBVAMA0yRJmRWvTIkAAAAASUVORK5CYII=)
+
+Signature électronique : Yousign (conventions de formation)
+
+## **Questions à explorer**
+
+Développement sur-mesure ou solution SaaS du marché (Moodle, 360Learning, Rise Up, Talentsoft) ?
+
+Quelles fonctionnalités indispensables vs "nice to have" ?
+
+Comment migrer les contenus existants ?
+
+Comment former les formateurs (peu à l'aise avec le digital) ?
+
+Quelle stratégie pour augmenter le taux de complétion ?
+
+Faut-il développer une app mobile ?
