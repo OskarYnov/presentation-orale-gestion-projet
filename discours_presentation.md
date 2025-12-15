@@ -177,5 +177,5 @@ Nous sommes prêts à lancer la réalisation."
 
 ### Slide 17 : Questions / Réponses (30 sec)
 
-**Intervenant 3 :**
+**Intervenant 2 :**
 "Merci de votre attention. Nous sommes prêts à répondre à vos questions."
