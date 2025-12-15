@@ -144,7 +144,7 @@ Rien n'est laissé au hasard, chaque tâche a un responsable."
 
 ### Slide 13 : KPI & Suivi (1 min 30)
 
-**Intervenant 3 :**
+**Intervenant 1 :**
 "Merci. Pour piloter ce projet, nous suivons 4 KPI majeurs :
 
 1.  **Avancement** : J/H consommés vs prévus.
@@ -154,14 +154,14 @@ Rien n'est laissé au hasard, chaque tâche a un responsable."
 
 ### Slide 14 : Budget Détaillé (1 min 30)
 
-**Intervenant 3 :**
+**Intervenant 1 :**
 "Le budget est de **90 610 €** en interne (185 J/H), couvrant l'IT et le pilotage.
 Les coûts externes (Licence SaaS) sont des charges de fonctionnement (OPEX).
 Nous avons prévu une enveloppe de maintenance (MCO) de 10-20% par an pour assurer la pérennité."
 
 ### Slide 15 : Analyse des Risques (1 min 30)
 
-**Intervenant 3 :**
+**Intervenant 2 :**
 "Nous restons vigilants sur les risques.
 
 - **Intégration SI** (Critique) : Nous testons les API en Sandbox.
@@ -170,7 +170,7 @@ Nous avons prévu une enveloppe de maintenance (MCO) de 10-20% par an pour assur
 
 ### Slide 16 : Conclusion (1 min)
 
-**Intervenant 3 :**
+**Intervenant 2 :**
 "En conclusion, le projet FormaPro est structuré pour réussir.
 Il répond à nos enjeux de productivité (-50% admin), de qualité (Qualiopi) et de business (Offre moderne).
 Nous sommes prêts à lancer la réalisation."
